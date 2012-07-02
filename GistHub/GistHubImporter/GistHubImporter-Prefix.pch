@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'GistHubImporter' target in the 'GistHubImporter' project
+//
+
+#ifdef __OBJC__
+#endif
