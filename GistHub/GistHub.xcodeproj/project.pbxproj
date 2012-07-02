@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B137CE415A1F0170088A630 /* GistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B137CE315A1F0170088A630 /* GistObject.m */; };
+		7B137CE615A1F5280088A630 /* AtoZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B137CE515A1F5280088A630 /* AtoZ.framework */; };
 		7B24EA0715A1BBE600A9D87A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B24EA0615A1BBE600A9D87A /* Cocoa.framework */; };
 		7B24EA1115A1BBE600A9D87A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B24EA0F15A1BBE600A9D87A /* InfoPlist.strings */; };
 		7B24EA1315A1BBE600A9D87A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA1215A1BBE600A9D87A /* main.m */; };
@@ -78,6 +80,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B137CE215A1F0170088A630 /* GistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GistObject.h; sourceTree = "<group>"; };
+		7B137CE315A1F0170088A630 /* GistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GistObject.m; sourceTree = "<group>"; };
+		7B137CE515A1F5280088A630 /* AtoZ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtoZ.framework; path = ../../../../AtoZ.framework/DerivedData/AtoZ/Build/Products/Debug/AtoZ.framework; sourceTree = "<group>"; };
 		7B24EA0215A1BBE600A9D87A /* GistHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B24EA0615A1BBE600A9D87A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7B24EA0915A1BBE600A9D87A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,7 @@
 			files = (
 				7B24EA0715A1BBE600A9D87A /* Cocoa.framework in Frameworks */,
 				7B24EABA15A1D47F00A9D87A /* UAGithubEngine.framework in Frameworks */,
+				7B137CE615A1F5280088A630 /* AtoZ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,12 +205,15 @@
 			children = (
 				7B24EA1815A1BBE600A9D87A /* GHDocument.h */,
 				7B24EA1915A1BBE600A9D87A /* GHDocument.m */,
+				7B137CE215A1F0170088A630 /* GistObject.h */,
+				7B137CE315A1F0170088A630 /* GistObject.m */,
 				7B24EA1B15A1BBE600A9D87A /* GHDocument.xib */,
 				7B24EA1E15A1BBE700A9D87A /* MainMenu.xib */,
 				7B24EA2115A1BBE700A9D87A /* GHDocument.xcdatamodeld */,
 				7B24EA0D15A1BBE600A9D87A /* Supporting Files */,
 				7B24EA7115A1C12C00A9D87A /* GHAppDelegate.h */,
 				7B24EA7215A1C12C00A9D87A /* GHAppDelegate.m */,
+				7B137CE515A1F5280088A630 /* AtoZ.framework */,
 			);
 			path = GistHub;
 			sourceTree = "<group>";
@@ -433,6 +442,7 @@
 				7B24EA1A15A1BBE600A9D87A /* GHDocument.m in Sources */,
 				7B24EA2315A1BBE700A9D87A /* GHDocument.xcdatamodeld in Sources */,
 				7B24EA7315A1C12C00A9D87A /* GHAppDelegate.m in Sources */,
+				7B137CE415A1F0170088A630 /* GistObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +617,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../AtoZ.framework/DerivedData/AtoZ/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GistHub/GistHub-Prefix.pch";
 				INFOPLIST_FILE = "GistHub/GistHub-Info.plist";
@@ -619,6 +633,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../AtoZ.framework/DerivedData/AtoZ/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GistHub/GistHub-Prefix.pch";
 				INFOPLIST_FILE = "GistHub/GistHub-Info.plist";
@@ -674,6 +692,7 @@
 				7B24EA5B15A1BBE700A9D87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B24EA5C15A1BBE700A9D87A /* Build configuration list for PBXNativeTarget "GistHub" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +701,7 @@
 				7B24EA5E15A1BBE700A9D87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B24EA5F15A1BBE700A9D87A /* Build configuration list for PBXNativeTarget "GistHubTests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +710,7 @@
 				7B24EA6115A1BBE700A9D87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 mrgray.com, inc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import 	"/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h"
+#import <Foundation/Foundation.h> 
+//#import 	"/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h"
 /** a gust is 
  description,
  "pushed_at",
@@ -37,12 +37,13 @@
  "created_at",
  "html_url"
 */
-
+@class UAGithubEngine;
 @interface GHAppDelegate : NSObject  <NSApplicationDelegate, NSWindowDelegate>
 {
 	UAGithubEngine *engine;
-	IBOutlet NSWindow *window;
+	IBOutlet 	NSWindow *window;
 	IBOutlet	NSArrayController*	arrayController;
-	NSMutableArray *content;
+				NSMutableArray *content;
+	IBOutlet	NSTableView *tv;
 }
 @end
