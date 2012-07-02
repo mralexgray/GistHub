@@ -28,6 +28,9 @@
 		7B24EA4F15A1BBE700A9D87A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA4E15A1BBE700A9D87A /* main.c */; };
 		7B24EA5115A1BBE700A9D87A /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA5015A1BBE700A9D87A /* GetMetadataForFile.m */; };
 		7B24EA5415A1BBE700A9D87A /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA5315A1BBE700A9D87A /* MySpotlightImporter.m */; };
+		7B24EA7315A1C12C00A9D87A /* GHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA7215A1C12C00A9D87A /* GHAppDelegate.m */; };
+		7B24EABA15A1D47F00A9D87A /* UAGithubEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B24EAB715A1D43800A9D87A /* UAGithubEngine.framework */; };
+		7B24EABB15A1D49500A9D87A /* UAGithubEngine.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B24EAB715A1D43800A9D87A /* UAGithubEngine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,34 @@
 			remoteGlobalIDString = 7B24EA3B15A1BBE700A9D87A;
 			remoteInfo = GistHubImporter;
 		};
+		7B24EAB615A1D43800A9D87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B24EAAF15A1D43600A9D87A /* UAGithubEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CC52FF9D15378566005A767A;
+			remoteInfo = UAGithubEngine;
+		};
+		7B24EAB815A1D47900A9D87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B24EAAF15A1D43600A9D87A /* UAGithubEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CC52FF9C15378566005A767A;
+			remoteInfo = UAGithubEngine;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B24EA6E15A1BF7000A9D87A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B24EABB15A1D49500A9D87A /* UAGithubEngine.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7B24EA0215A1BBE600A9D87A /* GistHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +112,9 @@
 		7B24EA5315A1BBE700A9D87A /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
 		7B24EA5515A1BBE700A9D87A /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
 		7B24EA5615A1BBE700A9D87A /* GistHubImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GistHubImporter-Prefix.pch"; sourceTree = "<group>"; };
+		7B24EA7115A1C12C00A9D87A /* GHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAppDelegate.h; sourceTree = "<group>"; };
+		7B24EA7215A1C12C00A9D87A /* GHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAppDelegate.m; sourceTree = "<group>"; };
+		7B24EAAF15A1D43600A9D87A /* UAGithubEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UAGithubEngine.xcodeproj; path = ../UAGithubEngine/UAGithubEngine.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B24EA0715A1BBE600A9D87A /* Cocoa.framework in Frameworks */,
+				7B24EABA15A1D47F00A9D87A /* UAGithubEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +153,8 @@
 		7B24E9F715A1BBE600A9D87A = {
 			isa = PBXGroup;
 			children = (
+				7B24EAAF15A1D43600A9D87A /* UAGithubEngine.xcodeproj */,
 				7B24EA0C15A1BBE600A9D87A /* GistHub */,
-				7B24EA2F15A1BBE700A9D87A /* GistHubTests */,
-				7B24EA4815A1BBE700A9D87A /* GistHubImporter */,
 				7B24EA0515A1BBE600A9D87A /* Frameworks */,
 				7B24EA0315A1BBE600A9D87A /* Products */,
 			);
@@ -170,6 +203,8 @@
 				7B24EA1E15A1BBE700A9D87A /* MainMenu.xib */,
 				7B24EA2115A1BBE700A9D87A /* GHDocument.xcdatamodeld */,
 				7B24EA0D15A1BBE600A9D87A /* Supporting Files */,
+				7B24EA7115A1C12C00A9D87A /* GHAppDelegate.h */,
+				7B24EA7215A1C12C00A9D87A /* GHAppDelegate.m */,
 			);
 			path = GistHub;
 			sourceTree = "<group>";
@@ -177,6 +212,8 @@
 		7B24EA0D15A1BBE600A9D87A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B24EA2F15A1BBE700A9D87A /* GistHubTests */,
+				7B24EA4815A1BBE700A9D87A /* GistHubImporter */,
 				7B24EA0E15A1BBE600A9D87A /* GistHub-Info.plist */,
 				7B24EA0F15A1BBE600A9D87A /* InfoPlist.strings */,
 				7B24EA1215A1BBE600A9D87A /* main.m */,
@@ -194,7 +231,7 @@
 				7B24EA3015A1BBE700A9D87A /* Supporting Files */,
 			);
 			path = GistHubTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		7B24EA3015A1BBE700A9D87A /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -215,7 +252,7 @@
 				7B24EA4915A1BBE700A9D87A /* Supporting Files */,
 			);
 			path = GistHubImporter;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		7B24EA4915A1BBE700A9D87A /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -228,6 +265,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7B24EAB015A1D43600A9D87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B24EAB715A1D43800A9D87A /* UAGithubEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,10 +283,12 @@
 				7B24E9FE15A1BBE600A9D87A /* Sources */,
 				7B24E9FF15A1BBE600A9D87A /* Frameworks */,
 				7B24EA0015A1BBE600A9D87A /* Resources */,
+				7B24EA6E15A1BF7000A9D87A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7B24EAB915A1D47900A9D87A /* PBXTargetDependency */,
 				7B24EA3E15A1BBE700A9D87A /* PBXTargetDependency */,
 			);
 			name = GistHub;
@@ -305,6 +352,12 @@
 			mainGroup = 7B24E9F715A1BBE600A9D87A;
 			productRefGroup = 7B24EA0315A1BBE600A9D87A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7B24EAB015A1D43600A9D87A /* Products */;
+					ProjectRef = 7B24EAAF15A1D43600A9D87A /* UAGithubEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7B24EA0115A1BBE600A9D87A /* GistHub */,
@@ -313,6 +366,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7B24EAB715A1D43800A9D87A /* UAGithubEngine.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UAGithubEngine.framework;
+			remoteRef = 7B24EAB615A1D43800A9D87A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7B24EA0015A1BBE600A9D87A /* Resources */ = {
@@ -369,6 +432,7 @@
 				7B24EA1315A1BBE600A9D87A /* main.m in Sources */,
 				7B24EA1A15A1BBE600A9D87A /* GHDocument.m in Sources */,
 				7B24EA2315A1BBE700A9D87A /* GHDocument.xcdatamodeld in Sources */,
+				7B24EA7315A1C12C00A9D87A /* GHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +466,11 @@
 			isa = PBXTargetDependency;
 			target = 7B24EA3B15A1BBE700A9D87A /* GistHubImporter */;
 			targetProxy = 7B24EA3D15A1BBE700A9D87A /* PBXContainerItemProxy */;
+		};
+		7B24EAB915A1D47900A9D87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UAGithubEngine;
+			targetProxy = 7B24EAB815A1D47900A9D87A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,6 +606,7 @@
 		7B24EA5D15A1BBE700A9D87A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GistHub/GistHub-Prefix.pch";
 				INFOPLIST_FILE = "GistHub/GistHub-Info.plist";
@@ -548,6 +618,7 @@
 		7B24EA5E15A1BBE700A9D87A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GistHub/GistHub-Prefix.pch";
 				INFOPLIST_FILE = "GistHub/GistHub-Info.plist";

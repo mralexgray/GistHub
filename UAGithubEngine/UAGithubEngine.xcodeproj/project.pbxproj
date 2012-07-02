@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B24EA9415A1CECE00A9D87A /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA7A15A1CECE00A9D87A /* NSArray+Utilities.h */; };
+		7B24EA9515A1CECE00A9D87A /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA7B15A1CECE00A9D87A /* NSArray+Utilities.m */; };
+		7B24EA9615A1CECE00A9D87A /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA7C15A1CECE00A9D87A /* NSData+Base64.h */; };
+		7B24EA9715A1CECE00A9D87A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA7D15A1CECE00A9D87A /* NSData+Base64.m */; };
+		7B24EA9815A1CECE00A9D87A /* NSInvocation+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA7E15A1CECE00A9D87A /* NSInvocation+Blocks.h */; };
+		7B24EA9915A1CECE00A9D87A /* NSInvocation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA7F15A1CECE00A9D87A /* NSInvocation+Blocks.m */; };
+		7B24EA9A15A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8015A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.h */; };
+		7B24EA9B15A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA8115A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.m */; };
+		7B24EA9C15A1CECE00A9D87A /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8215A1CECE00A9D87A /* NSString+UUID.h */; };
+		7B24EA9D15A1CECE00A9D87A /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA8315A1CECE00A9D87A /* NSString+UUID.m */; };
+		7B24EAA015A1CECE00A9D87A /* UAGithubEngine-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8615A1CECE00A9D87A /* UAGithubEngine-Prefix.pch */; };
+		7B24EAA115A1CECE00A9D87A /* UAGithubEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8715A1CECE00A9D87A /* UAGithubEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B24EAA215A1CECE00A9D87A /* UAGithubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA8815A1CECE00A9D87A /* UAGithubEngine.m */; };
+		7B24EAA315A1CECE00A9D87A /* UAGithubEngineConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8915A1CECE00A9D87A /* UAGithubEngineConstants.h */; };
+		7B24EAA415A1CECE00A9D87A /* UAGithubEngineConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA8A15A1CECE00A9D87A /* UAGithubEngineConstants.m */; };
+		7B24EAA515A1CECE00A9D87A /* UAGithubEngineRequestTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8B15A1CECE00A9D87A /* UAGithubEngineRequestTypes.h */; };
+		7B24EAA615A1CECE00A9D87A /* UAGithubJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8C15A1CECE00A9D87A /* UAGithubJSONParser.h */; };
+		7B24EAA715A1CECE00A9D87A /* UAGithubJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA8D15A1CECE00A9D87A /* UAGithubJSONParser.m */; };
+		7B24EAA815A1CECE00A9D87A /* UAGithubURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA8E15A1CECE00A9D87A /* UAGithubURLConnection.h */; };
+		7B24EAA915A1CECE00A9D87A /* UAGithubURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA8F15A1CECE00A9D87A /* UAGithubURLConnection.m */; };
+		7B24EAAA15A1CECE00A9D87A /* UAReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24EA9015A1CECE00A9D87A /* UAReachability.h */; };
+		7B24EAAB15A1CECE00A9D87A /* UAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24EA9115A1CECE00A9D87A /* UAReachability.m */; };
+		CC52FF9F15378566005A767A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC52FF9E15378566005A767A /* Cocoa.framework */; };
+		CC52FFD815378612005A767A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681F4113134C9310002DD87D /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		681F4113134C9310002DD87D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7B24EA7815A1CECE00A9D87A /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		7B24EA7915A1CECE00A9D87A /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		7B24EA7A15A1CECE00A9D87A /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
+		7B24EA7B15A1CECE00A9D87A /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
+		7B24EA7C15A1CECE00A9D87A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		7B24EA7D15A1CECE00A9D87A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		7B24EA7E15A1CECE00A9D87A /* NSInvocation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Blocks.h"; sourceTree = "<group>"; };
+		7B24EA7F15A1CECE00A9D87A /* NSInvocation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Blocks.m"; sourceTree = "<group>"; };
+		7B24EA8015A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAGithubEngineUtilities.h"; sourceTree = "<group>"; };
+		7B24EA8115A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UAGithubEngineUtilities.m"; sourceTree = "<group>"; };
+		7B24EA8215A1CECE00A9D87A /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		7B24EA8315A1CECE00A9D87A /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		7B24EA8415A1CECE00A9D87A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7B24EA8515A1CECE00A9D87A /* UAGithubEngine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UAGithubEngine-Info.plist"; sourceTree = "<group>"; };
+		7B24EA8615A1CECE00A9D87A /* UAGithubEngine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UAGithubEngine-Prefix.pch"; sourceTree = "<group>"; };
+		7B24EA8715A1CECE00A9D87A /* UAGithubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngine.h; sourceTree = "<group>"; };
+		7B24EA8815A1CECE00A9D87A /* UAGithubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngine.m; sourceTree = "<group>"; };
+		7B24EA8915A1CECE00A9D87A /* UAGithubEngineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineConstants.h; sourceTree = "<group>"; };
+		7B24EA8A15A1CECE00A9D87A /* UAGithubEngineConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngineConstants.m; sourceTree = "<group>"; };
+		7B24EA8B15A1CECE00A9D87A /* UAGithubEngineRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineRequestTypes.h; sourceTree = "<group>"; };
+		7B24EA8C15A1CECE00A9D87A /* UAGithubJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubJSONParser.h; sourceTree = "<group>"; };
+		7B24EA8D15A1CECE00A9D87A /* UAGithubJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubJSONParser.m; sourceTree = "<group>"; };
+		7B24EA8E15A1CECE00A9D87A /* UAGithubURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubURLConnection.h; sourceTree = "<group>"; };
+		7B24EA8F15A1CECE00A9D87A /* UAGithubURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubURLConnection.m; sourceTree = "<group>"; };
+		7B24EA9015A1CECE00A9D87A /* UAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAReachability.h; sourceTree = "<group>"; };
+		7B24EA9115A1CECE00A9D87A /* UAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAReachability.m; sourceTree = "<group>"; };
+		CC52FF9D15378566005A767A /* UAGithubEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UAGithubEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC52FF9E15378566005A767A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC52FFA015378566005A767A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC52FF9915378566005A767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC52FFD815378612005A767A /* SystemConfiguration.framework in Frameworks */,
+				CC52FF9F15378566005A767A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681F4113134C9310002DD87D /* SystemConfiguration.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				CC52FFA015378566005A767A /* CoreData.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC52FF9D15378566005A767A /* UAGithubEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* UAGithubEngine */ = {
+			isa = PBXGroup;
+			children = (
+				7B24EAAE15A1CEF800A9D87A /* Engine */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				7B24EAAD15A1CEE300A9D87A /* Support */,
+				7B24EA8715A1CECE00A9D87A /* UAGithubEngine.h */,
+			);
+			name = UAGithubEngine;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				CC52FF9E15378566005A767A /* Cocoa.framework */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B24EAAD15A1CEE300A9D87A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7B24EA8415A1CECE00A9D87A /* README.md */,
+				7B24EA8515A1CECE00A9D87A /* UAGithubEngine-Info.plist */,
+				7B24EA8615A1CECE00A9D87A /* UAGithubEngine-Prefix.pch */,
+				7B24EA7815A1CECE00A9D87A /* en.lproj */,
+				7B24EA7915A1CECE00A9D87A /* License.rtf */,
+				7B24EA7A15A1CECE00A9D87A /* NSArray+Utilities.h */,
+				7B24EA7B15A1CECE00A9D87A /* NSArray+Utilities.m */,
+				7B24EA7C15A1CECE00A9D87A /* NSData+Base64.h */,
+				7B24EA7D15A1CECE00A9D87A /* NSData+Base64.m */,
+				7B24EA7E15A1CECE00A9D87A /* NSInvocation+Blocks.h */,
+				7B24EA7F15A1CECE00A9D87A /* NSInvocation+Blocks.m */,
+				7B24EA8015A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.h */,
+				7B24EA8115A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.m */,
+				7B24EA8215A1CECE00A9D87A /* NSString+UUID.h */,
+				7B24EA8315A1CECE00A9D87A /* NSString+UUID.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		7B24EAAE15A1CEF800A9D87A /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7B24EA8815A1CECE00A9D87A /* UAGithubEngine.m */,
+				7B24EA8915A1CECE00A9D87A /* UAGithubEngineConstants.h */,
+				7B24EA8A15A1CECE00A9D87A /* UAGithubEngineConstants.m */,
+				7B24EA8B15A1CECE00A9D87A /* UAGithubEngineRequestTypes.h */,
+				7B24EA8C15A1CECE00A9D87A /* UAGithubJSONParser.h */,
+				7B24EA8D15A1CECE00A9D87A /* UAGithubJSONParser.m */,
+				7B24EA8E15A1CECE00A9D87A /* UAGithubURLConnection.h */,
+				7B24EA8F15A1CECE00A9D87A /* UAGithubURLConnection.m */,
+				7B24EA9015A1CECE00A9D87A /* UAReachability.h */,
+				7B24EA9115A1CECE00A9D87A /* UAReachability.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC52FF9A15378566005A767A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B24EAA115A1CECE00A9D87A /* UAGithubEngine.h in Headers */,
+				7B24EA9415A1CECE00A9D87A /* NSArray+Utilities.h in Headers */,
+				7B24EA9615A1CECE00A9D87A /* NSData+Base64.h in Headers */,
+				7B24EA9815A1CECE00A9D87A /* NSInvocation+Blocks.h in Headers */,
+				7B24EA9A15A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.h in Headers */,
+				7B24EA9C15A1CECE00A9D87A /* NSString+UUID.h in Headers */,
+				7B24EAA015A1CECE00A9D87A /* UAGithubEngine-Prefix.pch in Headers */,
+				7B24EAA315A1CECE00A9D87A /* UAGithubEngineConstants.h in Headers */,
+				7B24EAA515A1CECE00A9D87A /* UAGithubEngineRequestTypes.h in Headers */,
+				7B24EAA615A1CECE00A9D87A /* UAGithubJSONParser.h in Headers */,
+				7B24EAA815A1CECE00A9D87A /* UAGithubURLConnection.h in Headers */,
+				7B24EAAA15A1CECE00A9D87A /* UAReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC52FF9C15378566005A767A /* UAGithubEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC52FFAB15378566005A767A /* Build configuration list for PBXNativeTarget "UAGithubEngine" */;
+			buildPhases = (
+				CC52FF9815378566005A767A /* Sources */,
+				CC52FF9915378566005A767A /* Frameworks */,
+				CC52FF9A15378566005A767A /* Headers */,
+				CC52FF9B15378566005A767A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UAGithubEngine;
+			productName = UAGithubEngine;
+			productReference = CC52FF9D15378566005A767A /* UAGithubEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UAGithubEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* UAGithubEngine */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC52FF9C15378566005A767A /* UAGithubEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC52FF9B15378566005A767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC52FF9815378566005A767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B24EA9515A1CECE00A9D87A /* NSArray+Utilities.m in Sources */,
+				7B24EA9715A1CECE00A9D87A /* NSData+Base64.m in Sources */,
+				7B24EA9915A1CECE00A9D87A /* NSInvocation+Blocks.m in Sources */,
+				7B24EA9B15A1CECE00A9D87A /* NSString+UAGithubEngineUtilities.m in Sources */,
+				7B24EA9D15A1CECE00A9D87A /* NSString+UUID.m in Sources */,
+				7B24EAA215A1CECE00A9D87A /* UAGithubEngine.m in Sources */,
+				7B24EAA415A1CECE00A9D87A /* UAGithubEngineConstants.m in Sources */,
+				7B24EAA715A1CECE00A9D87A /* UAGithubJSONParser.m in Sources */,
+				7B24EAA915A1CECE00A9D87A /* UAGithubURLConnection.m in Sources */,
+				7B24EAAB15A1CECE00A9D87A /* UAReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC52FFAC15378566005A767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UAGithubEngine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "UAGithubEngine-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		CC52FFAD15378566005A767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UAGithubEngine-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "UAGithubEngine-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UAGithubEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC52FFAB15378566005A767A /* Build configuration list for PBXNativeTarget "UAGithubEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC52FFAC15378566005A767A /* Debug */,
+				CC52FFAD15378566005A767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
