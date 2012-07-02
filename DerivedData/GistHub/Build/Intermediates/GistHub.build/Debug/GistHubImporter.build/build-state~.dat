@@ -1,230 +1,0 @@
-TGistHubImporter
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Info.plist GistHubImporter/GistHubImporter-Info.plist
-cProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.o /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.o /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.o /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporter normal x86_64
-cCopyStringsFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings GistHubImporter/en.lproj/InfoPlist.strings
-cTouch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F90F72900000000000000CC
-t1334900521
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004FD6C6C3000000000003D7A8
-t1339475651
-s251816
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004FD6C6C3000000000007809C
-t1339475651
-s491676
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
-c000000004FD6C6C30000000000007B40
-t1339475651
-s31552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004FD6C6C300000000000AE03C
-t1339475651
-s712764
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GistHubImporter.LinkFileList
-c000000004FF1880400000000000001D6
-t1341229060
-s470
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.pth
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.pth
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Info.plist
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporter
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m
-c000000004FF184670000000000000BCA
-t1341228135
-s3018
-
-N/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GistHubImporter-Prefix.pch
-c000000004FF184670000000000000085
-t1341228135
-s133
-
-N/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m
-c000000004FF184670000000000001603
-t1341228135
-s5635
-
-N/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/en.lproj/InfoPlist.strings
-c000000004FF18467000000000000002D
-t1341228135
-s45
-
-N/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c
-c000000004FF184670000000000002089
-t1341228135
-s8329
-
-NGistHubImporter/GistHubImporter-Info.plist
-c000000004FF1846700000000000008C6
-t1341228135
-s2246
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb2485f84bfa1b541^ad178b84bfa1b541^---0#1#0#--18"Check dependencies36"F994CD22-409C-44A5-B360-57C1FEBB832C-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.o /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.775623
-e362921861.574426
-r1
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.o
-x/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m40f6c684bfa1b541^b20e9385bfa1b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m0000000000000000^2837"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.o GistHubImporter/GetMetadataForFile.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/GistHubImporter.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.dia -c /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GetMetadataForFile.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GetMetadataForFile.o36"514B5166-540B-41B1-B76F-A077CAFE820D-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.o /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.775850
-e362921861.586744
-r1
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.o
-x/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.mb9fdc684bfa1b541^de3b9685bfa1b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m0000000000000000^2843"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.o GistHubImporter/MySpotlightImporter.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/GistHubImporter.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.dia -c /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/MySpotlightImporter.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/MySpotlightImporter.o36"0A0167DF-3780-4832-A878-3A5B810559CC-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.o /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.776029
-e362921861.311841
-r1
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.o
-x/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c6138c784bfa1b541^75904f85bfa1b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c0000000000000000^2418"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.o GistHubImporter/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/GistHubImporter.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.dia -c /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/main.c -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/main.o36"7201E513-3577-4E45-85C9-78BFE94C8EEE-
-
-CCopyStringsFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings GistHubImporter/en.lproj/InfoPlist.strings
-s362921861.869812
-e362921861.910350
-r1
-xCopyStringsFile
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings
-xGistHubImporter/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy GistHubImporter/en.lproj/InfoPlist.stringsf0ddde85bfa1b541^4a0de985bfa1b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/en.lproj/InfoPlist.strings0000000000000000^528"CopyStringsFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Resources/en.lproj/InfoPlist.strings GistHubImporter/en.lproj/InfoPlist.strings    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Resources/en.lproj -- GistHubImporter/en.lproj/InfoPlist.strings36"5DD0AA17-711B-49AA-A3A9-0A7817E20974-
-
-CLd /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporter normal x86_64
-s362921861.593242
-e362921861.851088
-r1
-xLd
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporter
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Link /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporterbef79785bfa1b541^5e0fda85bfa1b541^---0#0#0#--1075"Ld /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporter normal x86_64    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -filelist /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/Objects-normal/x86_64/GistHubImporter.LinkFileList -mmacosx-version-min=10.7 -fobjc-arc -framework CoreServices -framework CoreFoundation -framework CoreData -framework Foundation -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/MacOS/GistHubImporter36"7D8A5497-AB42-479C-9E64-76D00FF25759-
-
-CProcessInfoPlistFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Info.plist GistHubImporter/GistHubImporter-Info.plist
-s362921860.464497
-e362921860.468924
-r1
-xProcessInfoPlistFile
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Info.plist
-xGistHubImporter/GistHubImporter-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process GistHubImporter/GistHubImporter-Info.plistb5fa7684bfa1b541^336a8e84bfa1b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GistHubImporter-Info.plist0000000000000000^476"ProcessInfoPlistFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Info.plist GistHubImporter/GistHubImporter-Info.plist    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    builtin-infoPlistUtility GistHubImporter/GistHubImporter-Info.plist -expandbuildsettings -platform macosx -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter/Contents/Info.plist36"E57C1646-92E5-4CDE-AE7C-EA7FBEC62345-
-
-CProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.476717
-e362921860.754036
-r1
-xProcessPCH
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.pth
-xGistHubImporter/GistHubImporter-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile GistHubImporter/GistHubImporter-Prefix.pch84297a84bfa1b541^9d0dc184bfa1b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GistHubImporter-Prefix.pch0000000000000000^2739"ProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/GistHubImporter.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.dia -c /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GistHubImporter-Prefix.pch -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.pth -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-beqritlqysyvlredfqdkuzqhzgav/GistHubImporter-Prefix.pch.d36"77B9CF11-5B5B-4E81-ACB7-E89E0E6FA919-
-
-CProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.476757
-e362921860.753850
-r1
-xProcessPCH
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.pth
-xGistHubImporter/GistHubImporter-Prefix.pch
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile GistHubImporter/GistHubImporter-Prefix.pch01307a84bfa1b541^a0fdc084bfa1b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GistHubImporter-Prefix.pch0000000000000000^2404"ProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/GistHubImporter.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/GistHub.build/Debug/GistHubImporter.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.dia -c /Volumes/2T/ServiceData/dev/GistHub/GistHub/GistHubImporter/GistHubImporter-Prefix.pch -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.pth -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/GistHubImporter-Prefix-ezqilmlrgpblxxgamrwmbtgyzkxr/GistHubImporter-Prefix.pch.d36"6968A21A-44A1-4312-9FF6-A3DC8FA34FE6-
-
-CProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Index/PrecompiledHeaders/GistHubImporter-Prefix-dhskygixjhnoewfwspurtauzisjt_ast/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Index/PrecompiledHeaders/GistHubImporter-Prefix-fkswosurtcisblcgnbqtwjjvgwfj_ast/GistHubImporter-Prefix.pch.pth GistHubImporter/GistHubImporter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter
-s362921861.918549
-e362921861.926455
-r1
-xTouch
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporterc235eb85bfa1b541^9c30ed85bfa1b541^---0#0#0#--287"Touch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter    cd /Volumes/2T/ServiceData/dev/GistHub/GistHub    /usr/bin/touch -c /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/GistHubImporter.mdimporter36"C513ABDD-C00B-4127-9D36-B06F531AB72D-
-

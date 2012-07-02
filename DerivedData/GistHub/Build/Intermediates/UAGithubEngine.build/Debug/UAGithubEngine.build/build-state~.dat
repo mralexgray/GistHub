@@ -1,480 +1,0 @@
-TUAGithubEngine
-v5
-r1
-cCheck dependencies
-cSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Current A
-cSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources Versions/Current/Resources
-cSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine Versions/Current/UAGithubEngine
-cSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headers Versions/Current/Headers
-cProcessInfoPlistFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/Info.plist UAGithubEngine/UAGithubEngine-Info.plist
-cProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.pth UAGithubEngine/UAGithubEngine-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEngine normal x86_64
-cCpHeader UAGithubEngine/UAGithubEngine.h /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h
-cCopyStringsFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/en.lproj/InfoPlist.strings UAGithubEngine/en.lproj/InfoPlist.strings
-cTouch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F90F72900000000000000CC
-t1334900521
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004FD6C6C30000000000002470
-t1339475651
-s9328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004FD6C6C6000000000002B984
-t1339475654
-s178564
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.pth
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.LinkFileList
-c000000004FF18804000000000000068A
-t1341229060
-s1674
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.o
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headers
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/Info.plist
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEngine
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Current
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Prefix.pch
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/en.lproj/InfoPlist.strings
-c00000000000000000000000000000000
-t2
-s0
-
-NUAGithubEngine/UAGithubEngine-Info.plist
-c00000000000000000000000000000000
-t2
-s0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m
-r0
-
-CBuild AST from /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb6475f84bfa1b541^eb728e84bfa1b541^---0#1#0#--18"Check dependencies36"0CEE4D49-D050-4172-83EA-44AC2871FB19-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.660158
-e362921860.675211
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.me92aa984bfa1b541^40ddac84bfa1b541^-283"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@101"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m000000000080d041^3402"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o UAGithubEngine/NSArray+Utilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSArray+Utilities.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o36"3965964C-6FFB-4116-9449-F5012B59D4C7-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.660180
-e362921860.691642
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.mba2da984bfa1b541^5a47b184bfa1b541^-279"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@97"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m000000000080d041^3378"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.o UAGithubEngine/NSData+Base64.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSData+Base64.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSData+Base64.o36"A4E176B1-EE56-4B17-B1CA-D46D6131D0A6-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.660692
-e362921860.685791
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.md256a984bfa1b541^cb2db184bfa1b541^-285"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@103"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m000000000080d041^3414"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.o UAGithubEngine/NSInvocation+Blocks.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSInvocation+Blocks.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSInvocation+Blocks.o36"8E37650B-D206-496B-8951-848BD9165329-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.660689
-e362921860.690750
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m4757a984bfa1b541^ac3cb184bfa1b541^-298"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@116"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m000000000080d041^3492"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.o UAGithubEngine/NSString+UAGithubEngineUtilities.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UAGithubEngineUtilities.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UAGithubEngineUtilities.o36"E1C135DE-3D96-4F8E-A18B-6701F502D33A-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.660703
-e362921860.693846
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m234ca984bfa1b541^eb1db284bfa1b541^-279"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@97"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m000000000080d041^3378"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.o UAGithubEngine/NSString+UUID.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/NSString+UUID.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSString+UUID.o36"7BF121DC-994D-4CC1-86A2-7A4F61A38CC0-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.660712
-e362921860.678857
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m5550a984bfa1b541^25cbad84bfa1b541^-280"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@98"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m000000000080d041^3384"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.o UAGithubEngine/UAGithubEngine.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.o36"85A05E89-864D-47D8-AB6D-BC34C33885F6-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.676635
-e362921860.693749
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.me960ad84bfa1b541^9c14b284bfa1b541^-289"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@107"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m000000000080d041^3438"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.o UAGithubEngine/UAGithubEngineConstants.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngineConstants.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngineConstants.o36"52947455-FA4E-4E34-B65F-6B5F676DB1B0-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.680047
-e362921860.711047
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m0932ae84bfa1b541^990db684bfa1b541^-284"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@102"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m000000000080d041^3408"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.o UAGithubEngine/UAGithubJSONParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubJSONParser.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubJSONParser.o36"112CB9AE-555A-4371-B88A-93F4EB5D0EE5-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.687274
-e362921860.714889
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.md219b084bfa1b541^6d03b784bfa1b541^-287"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@105"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m000000000080d041^3426"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.o UAGithubEngine/UAGithubURLConnection.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubURLConnection.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubURLConnection.o36"F3F43F04-666E-4617-83B6-9015E20681A0-
-
-CCompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.o /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.692118
-e362921860.711137
-r0
-xCompileC
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.o
-x/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.md751b184bfa1b541^6519b684bfa1b541^-280"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@98"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m000000000080d041^3384"CompileC /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.o UAGithubEngine/UAReachability.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -include /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.d --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAReachability.m -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAReachability.o36"47660302-F130-4AE7-9CC4-A5681901D978-
-
-CCopyStringsFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/en.lproj/InfoPlist.strings UAGithubEngine/en.lproj/InfoPlist.strings
-s362921860.835814
-e362921860.839166
-r0
-xCopyStringsFile
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/en.lproj/InfoPlist.strings
-xUAGithubEngine/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy UAGithubEngine/en.lproj/InfoPlist.stringsdc0dd684bfa1b541^c8d3d684bfa1b541^-188"/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/en.lproj/InfoPlist.strings:0: error: The file “InfoPlist.strings” couldn’t be opened because there is no such file.1(21%IDEActivityLogMessage2@84"The file “InfoPlist.strings” couldn’t be opened because there is no such file.-362921860#0#182#-2#-23%DVTTextDocumentLocation3@108"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/en.lproj/InfoPlist.strings0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#24"Copy .strings file Error--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/en.lproj/InfoPlist.strings000000000080d041^533"CopyStringsFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/en.lproj/InfoPlist.strings UAGithubEngine/en.lproj/InfoPlist.strings    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/en.lproj -- UAGithubEngine/en.lproj/InfoPlist.strings36"B30D63FD-15FF-490B-A132-F39DBC5E44DA-
-
-CCpHeader UAGithubEngine/UAGithubEngine.h /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h
-s362921860.780679
-e362921860.827542
-r0
-xCpHeader
-xUAGithubEngine/UAGithubEngine.h
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Copy /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.hfcfcc784bfa1b541^594cd484bfa1b541^-117"error: /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.h: No such file or directory1(21%IDEActivityLogMessage2@116"error: /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.h: No such file or directory-362921860#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@153"file://localhost/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h000000000080d041^658"CpHeader UAGithubEngine/UAGithubEngine.h /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers/UAGithubEngine.h    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine.h /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Headers36"5ED4D2E4-9902-433E-87FD-0608C1683E64-
-
-CLd /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEngine normal x86_64
-s362921860.721252
-e362921860.763550
-r0
-xLd
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEngine
-xnormal
-xx86_64
-old: file not found: /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o
-oclang: error: linker command failed with exit code 1 (use -v to see invocation)
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEnginef9bab884bfa1b541^9e96c384bfa1b541^-266"ld: file not found: /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.oclang: error: linker command failed with exit code 1 (use -v to see invocation)2(21%IDEActivityLogMessage2@181"File not found: /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/NSArray+Utilities.o-362921860#0#186#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-362921860#186#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--1177"Ld /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEngine normal x86_64    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug -filelist /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/Objects-normal/x86_64/UAGithubEngine.LinkFileList -install_name /Library/Frameworks/UAGithubEngine.framework/Versions/A/UAGithubEngine -mmacosx-version-min=10.7 -fobjc-arc -framework SystemConfiguration -framework Cocoa -single_module -compatibility_version 1 -current_version 1 -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/UAGithubEngine36"BACF8CAE-5F8B-410B-96C3-550C6C08CE77-
-
-CProcessInfoPlistFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/Info.plist UAGithubEngine/UAGithubEngine-Info.plist
-s362921860.528051
-e362921860.531619
-r0
-xProcessInfoPlistFile
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/Info.plist
-xUAGithubEngine/UAGithubEngine-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process UAGithubEngine/UAGithubEngine-Info.plistbb428784bfa1b541^338d8e84bfa1b541^-220"error: could not read data from '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Info.plist': The file “UAGithubEngine-Info.plist” couldn’t be opened because there is no such file.1(21%IDEActivityLogMessage2@212"could not read data from '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Info.plist': The file “UAGithubEngine-Info.plist” couldn’t be opened because there is no such file.-362921860#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@107"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Info.plist000000000080d041^499"ProcessInfoPlistFile /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/Info.plist UAGithubEngine/UAGithubEngine-Info.plist    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    builtin-infoPlistUtility UAGithubEngine/UAGithubEngine-Info.plist -expandbuildsettings -platform macosx -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/A/Resources/Info.plist36"05639B10-3F0D-448A-8DA1-2B4A9F284087-
-
-CProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.pth UAGithubEngine/UAGithubEngine-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s362921860.539899
-e362921860.653386
-r0
-xProcessPCH
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.pth
-xUAGithubEngine/UAGithubEngine-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Prefix.pch'
-oclang: error: no input files
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile UAGithubEngine/UAGithubEngine-Prefix.pchdd5e8a84bfa1b541^0da8a784bfa1b541^-289"clang: error: no such file or directory: '/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Prefix.pch'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-362921860#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@107"file://localhost/Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Prefix.pch000000000080d041^3278"ProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.pth UAGithubEngine/UAGithubEngine-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-generated-files.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-own-target-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-all-target-headers.hmap -iquote /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/UAGithubEngine-project-headers.hmap -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/include -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources/x86_64 -I/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/UAGithubEngine.build/Debug/UAGithubEngine.build/DerivedSources -F/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug --serialize-diagnostics /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.dia -c /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine/UAGithubEngine/UAGithubEngine-Prefix.pch -o /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.pth -MMD -MT dependencies -MF /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Intermediates/PrecompiledHeaders/UAGithubEngine-Prefix-dquimouzkdtkikaigognqunzltzd/UAGithubEngine-Prefix.pch.d36"60CE9138-B6DE-4CE5-BD7F-88D67802172E-
-
-CProcessPCH /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Index/PrecompiledHeaders/UAGithubEngine-Prefix-fnxcjppbicbcflftzegqnbfzsnga_ast/UAGithubEngine-Prefix.pch.pth UAGithubEngine/UAGithubEngine-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headers Versions/Current/Headers
-s362921860.511837
-e362921860.519942
-r1
-xSymLink
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headers
-xVersions/Current/Headers
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Process /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headersac1b8384bfa1b541^12858e84bfa1b541^---0#0#0#--352"SymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headers Versions/Current/Headers    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    /bin/ln -sf Versions/Current/Headers /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Headers36"6C06B478-FD86-4A0B-95AB-E3EA2B255E93-
-
-CSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources Versions/Current/Resources
-s362921860.493611
-e362921860.503979
-r1
-xSymLink
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources
-xVersions/Current/Resources
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Process /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources47717e84bfa1b541^e6778e84bfa1b541^---0#0#0#--360"SymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources Versions/Current/Resources    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    /bin/ln -sf Versions/Current/Resources /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Resources36"91479732-086E-4983-91A7-4220A00D0A92-
-
-CSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine Versions/Current/UAGithubEngine
-s362921860.493994
-e362921860.504350
-r1
-xSymLink
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine
-xVersions/Current/UAGithubEngine
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Process /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine0e827e84bfa1b541^d47f8e84bfa1b541^---0#0#0#--380"SymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine Versions/Current/UAGithubEngine    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    /bin/ln -sf Versions/Current/UAGithubEngine /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/UAGithubEngine36"FBB648CF-2817-4502-B7CD-EF4F7E53D3C1-
-
-CSymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Current A
-s362921860.493569
-e362921860.504282
-r1
-xSymLink
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Current
-xA
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Process /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Currentca6a7e84bfa1b541^d57b8e84bfa1b541^---0#0#0#--324"SymLink /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Current A    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    /bin/ln -sf A /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework/Versions/Current36"48828496-CD96-47B9-8B18-4CBA7BEFA5C6-
-
-CTouch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework
-s362921860.861110
-e362921860.869954
-r1
-xTouch
-x/Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework3084dc84bfa1b541^410ddf84bfa1b541^---0#0#0#--290"Touch /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework    cd /Volumes/2T/ServiceData/dev/GistHub/UAGithubEngine    /usr/bin/touch -c /Volumes/2T/ServiceData/dev/GistHub/DerivedData/GistHub/Build/Products/Debug/UAGithubEngine.framework36"25829BC6-8DEA-4376-BAAE-781A057AAB7D-
-
